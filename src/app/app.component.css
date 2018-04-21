@@ -1,0 +1,95 @@
+#header{
+     text-align: center;    
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;  
+}
+main{    
+    padding: 5%;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    display: inline-flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:flex-start;
+}
+footer{
+    padding: 10px;
+    text-align: center;    
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;  
+}
+h1{
+    letter-spacing: 10px;
+}
+main>ol{
+    text-align: left;
+    width: 40%;    
+}
+main>ol> li{
+    margin-top: 12px;
+}
+input[type="password"]{
+width:120px;
+height: 23px;
+padding: 3px;
+font-size: 1em;
+border-radius: 5px;
+border: 2px solid #f7f1e3;
+}
+input[type="password"]:focus{
+    border-color: #746645;
+    box-shadow: 0 0 10px 0 #f7f1e3;
+}
+input[type="button"]{
+    height: 30px;
+    background-color: #84817a;
+    color: #fff;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+}
+.box{
+    margin: 10px auto;
+    width: 90%;
+    border: 2px solid #f7f1e3;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #fff;
+}
+.box:hover{
+    border-color: #746645;
+    box-shadow: 0 0 10px 0 #f7f1e3;
+}
+.text{
+    width: 60%;
+}
+.no{
+    display: none;
+}
+img{
+    width: 40%;
+    border-radius: 5px;
+}
+@media only screen and (max-width:994px){
+    .text{
+        width: 50%;
+    }
+    main>ol{
+        width: 50%;        
+    }   
+}
+@media only screen and (max-width:768px){
+    main>ol>li{
+        margin-top: 5px;
+    }
+    h1{
+        font-size: 1.9em;
+        letter-spacing: 0px;
+    }
+    main{                
+        display: block;             
+    }
+    main>ol{margin: auto;width: 90%;}
+    .text{margin: auto;width:90%;height: auto;}    
+}

@@ -1,9 +1,37 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-    Welcome to {{ title }}!
-  </h1>
-  <img width="300" alt="Angular Logo" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==">
+<div id="header">
+    <h1>物件導向考試重點</h1>
+    <p>老師說會考幾個關鍵字&頁(非全部)</p>
+    <input [(ngModel)]="ps" #pss type="password" placeholder="輸入正確密碼">
+    <input type="button" (click)="ok();pss.value=''" value="確定">
+    <span style="color:red">{{result}}</span>
 </div>
-
-
+<main>
+    <ol>
+        <li>簡介 (intro)</li>
+        <li>軟體開發模式 (develop-models)</li>
+        <li>敏捷式開發方法 (敏捷式專案管理)</li>
+        <li>需求擷取方法 (req-elicitation)</li>
+        <li>需求塑模--使用個案模式 (use case model)</li>
+    </ol>
+    <div class="text" [class.no]="show">
+        <div class="box" id="one">
+            1.軟體開發人員，軟體建置策略，表格。
+        </div>
+        <div class="box" id="two">
+            2.每個開發模式都要看，螺旋模式:風險導向，配對編程，決策支援系統。
+        </div>
+        <div class="box" id="three">
+            3.p39，p28，p31，p38，p39，p42，專有名詞記。
+        </div>
+        <div class="box" id="four">
+            4.p4
+        </div>
+        <div class="box" id="five">
+            5.使用個案是甚麼?圖形解釋
+            <br>p6，p22，p23，p30，p40，p89。
+        </div>
+    </div>
+</main>
+<footer>
+    <div>copyright © xingyu</div>
+</footer>
