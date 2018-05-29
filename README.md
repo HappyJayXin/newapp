@@ -1,3 +1,6 @@
+#使用Angular製作網頁
+<p>期中考筆記</p>
+
 # Newapp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.4.
