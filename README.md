@@ -1,5 +1,6 @@
 # 使用Angular製作網頁
 <p>期中考筆記</p>
+<a href="https://happyjayxin.github.io/newapp/">go to Web</a>
 
 # Newapp
 
