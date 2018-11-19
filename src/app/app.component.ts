@@ -19,7 +19,8 @@ export class AppComponent {
     this.fib[2]=4;
     for(var i=3;i<=20;i++){
       this.fib[i]=this.fib[i-1]+this.fib[i-2];
-    }           
+    }   
+    console.log(this.ps==this.fib[12]+this.fib[18])
   }
   ok(){
     if(this.ps==this.fib[12]+this.fib[18]){
