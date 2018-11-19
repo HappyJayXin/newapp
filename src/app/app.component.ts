@@ -19,10 +19,10 @@ export class AppComponent {
     this.fib[2]=4;
     for(var i=3;i<=20;i++){
       this.fib[i]=this.fib[i-1]+this.fib[i-2];
-    }   
-    console.log(this.ps==this.fib[12]+this.fib[18])
+    }       
   }
   ok(){
+    console.log(this.ps==this.fib[12]+this.fib[18])
     if(this.ps==this.fib[12]+this.fib[18]){
       //this.show=false;
       this.result=''; 
