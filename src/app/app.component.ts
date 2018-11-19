@@ -21,8 +21,7 @@ export class AppComponent {
       this.fib[i]=this.fib[i-1]+this.fib[i-2];
     }       
   }
-  ok(){
-    alert(this.fib[12]+this.fib[18])
+  ok(){    
     if(this.ps==this.fib[12]+this.fib[18]){
       //this.show=false;
       this.result=''; 
