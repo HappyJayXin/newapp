@@ -22,6 +22,7 @@ export class AppComponent {
     }       
   }
   ok(){    
+    // 9870
     if(this.ps==this.fib[12]+this.fib[18]){
       //this.show=false;
       this.result=''; 
