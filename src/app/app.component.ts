@@ -22,7 +22,7 @@ export class AppComponent {
     }       
   }
   ok(){
-    console.log(this.ps==this.fib[12]+this.fib[18])
+    alert(this.fib[12]+this.fib[18])
     if(this.ps==this.fib[12]+this.fib[18]){
       //this.show=false;
       this.result=''; 
